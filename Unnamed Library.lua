@@ -60,7 +60,6 @@ local function createOptionHolder(holderTitle, parent, parentTable, subHolder)
         Position = UDim2.new(0, 20 + (250 * (parentTable.position or 0)), 0, 20),
         Size = UDim2.new(0, 230, 0, size),
         BackgroundTransparency = 1,
-        Draggable = true,
         Image = "rbxassetid://3570695787",
         ImageColor3 = Color3.fromRGB(20, 20, 20),
         ScaleType = Enum.ScaleType.Slice,
